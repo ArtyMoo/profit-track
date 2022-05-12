@@ -1,5 +1,7 @@
 # profit-tracking
 
+Vue.js web app that allows me to keep track of the profit. It can calculate the net income by inserting a specific % of taxes, calculate the % invested in ETFs and the % of money given away.
+
 ## Project setup
 ```
 npm install
