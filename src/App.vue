@@ -1,6 +1,7 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
+    <router-link to="/calculator">Calculator</router-link> | 
     <router-link to="/settings">Settings</router-link>
   </div>
   <router-view /> <!-- router-view is a functional component that renders the matched component for the given path -->
