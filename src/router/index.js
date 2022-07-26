@@ -9,7 +9,7 @@ const routes = [
   },
   {
     path: "/settings",
-    name: "Seettings",
+    name: "Settings",
     // route level code-splitting
     // this generates a separate chunk (settings.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -17,6 +17,14 @@ const routes = [
       return import(/* webpackChunkName: "settings" */ "../views/Settings.vue");
     },
   },
+  {
+    path: "/calculator",
+    name: "Calculator",
+
+    component: function () {
+      return import(/* webpackChunkName: "settings" */ "../views/Calculator.vue");
+    },
+  }
 ];
 
 const router = createRouter({

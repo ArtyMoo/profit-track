@@ -5,7 +5,7 @@
                 <th scope="col">Date</th>
                 <th scope="col">Gross</th>
                 <th scope="col">Net</th>
-                <th scope="col">Taxes (%)</th>
+                <th scope="col">VAT (%)</th>
                 <th scope="col">ETFs</th>
                 <th scope="col">Given</th>
                 <th scope="col">Donation</th>
@@ -33,7 +33,7 @@
             </tbody>
         </table>
         <p class="align"><b>Available</b>: <span id="total">{{ available }}</span> €</p>
-        <p class="align"><b>Invested</b> (more than that): <span id="total">{{ invested }}</span> €</p>
+        <p class="align"><b>Invested</b> (more than this): <span id="total">{{ invested }}</span> €</p>
         <!-- 
         <p class="align"><b>Given</b> (less than that): <span id="total">{{ given }}</span> €</p>
         -->
@@ -47,7 +47,7 @@
                     <input v-model="gross" class="form-control" type="number" step=".01" required="true">
                 </div>
                 <div class="mb-3">
-                    <label style="float:left" for="">Taxes (%)</label>
+                    <label style="float:left" for="">VAT (%)</label>
                     <input v-model="taxes" class="form-control" type="number" step=".01" required="true">
                 </div>
                 <div class="mb-3">
