@@ -15,12 +15,11 @@ npm install
 ```
 npm run serve
 
-### or
+```
+### Or using npx
 ```
 npx vue-cli-service serve
-
 ```
-
 ### Compiles and minifies for production
 ```
 npm run build
